@@ -85,13 +85,13 @@ function sube_interno(valrad1,valrad2,valrad3,valrad4,valrad5){
 			
 			
 			window.location.href="#pregunta116";
-			//navigator.notification.alert("Reserva Sincronizada Satisfactoriamente",null,"Reserva Realizada", "Aceptar");
+			navigator.notification.alert("Datos guardados correctamente",null,"Regresa Pronto", "Aceptar");
 			
 			//subirFoto(foto,nom);
 		
 		
 		}else{
-			navigator.notification.alert("Error al guardar calificacion", null, "Registro", "Aceptar");	
+		    navigator.notification.alert("Error al guardar datos", null, "Alert", "Aceptar");
 		}
 	});
 }
