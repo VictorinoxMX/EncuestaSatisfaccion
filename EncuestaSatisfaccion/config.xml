@@ -11,7 +11,7 @@
   <access origin="*" />
   <vs:features />
   <preference name="SplashScreen" value="screen" />
-  <preference name="phonegap-version" value="cli-6.1.0" />
+  <preference name="phonegap-version" value="cli-6.1.0" /> 
   <preference name="windows-target-version" value="8.1" />
   <!-- Support for Cordova 5.0.0 plugin system -->
   <plugin name="cordova-plugin-whitelist" version="1" />
@@ -111,8 +111,5 @@
   <platform name="wp8">
     <splash src="res/screens/wp8/SplashScreenImage.png" width="768" height="1280" />
   </platform>
-  <plugin name="cordova-plugin-camera" version="2.2.0" />
-  <preference name="target-device" value="tablet" />
-  <preference name="BackupWebStorage" value="cloud" />
-  <plugin name="cordova-plugin-compat" version="1.0.0" />
+ 
 </widget>
