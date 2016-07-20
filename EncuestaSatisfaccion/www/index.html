@@ -1,15 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    
     <meta charset="utf-8">
-    <title>Aplic. Web de jQuery Mobile</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Encuesta Satisfaccion</title>
     <link href="css/victorinox2.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css" />
     <script src="http://debug.phonegap.com/target/target-script-min.js"></script>
     <script src="phonegap.js"></script>
     <script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
     <script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
-    <script src="js/API/eventos.js" type="text/javascript"></script>
+     <!--   <script src="js/API/eventos.js" type="text/javascript"></script>-->
     <script src="scripts/index.js" type="text/javascript"></script>
     <script src="js/API/captura.js" type="text/javascript"></script>
     <script src="js/API/servidor.js" type="text/javascript"></script>
@@ -17,6 +25,9 @@
     <script src="js/API/dispositivo.js" type="text/javascript"></script>
     <script src="js/API/almacenamiento.js" type="text/javascript"></script>
     <script src="js/API/conexion.js" type="text/javascript"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
     <style>
         div.abs {
             width: auto;
