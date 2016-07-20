@@ -11,6 +11,7 @@
   <access origin="*" />
   <vs:features />
   <preference name="SplashScreen" value="screen" />
+  <preference name="phonegap-version" value="cli-6.1.0" />
   <preference name="windows-target-version" value="8.1" />
   <!-- Support for Cordova 5.0.0 plugin system -->
   <plugin name="cordova-plugin-whitelist" version="1" />
