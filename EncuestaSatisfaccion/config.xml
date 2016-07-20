@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget
-
- xmlns       = "http://www.w3.org/ns/widgets"
-      xmlns:gap   = "http://phonegap.com/ns/1.0"
-      id          = "com.testvictorinox.ensa"
-      versionCode = "5.2.0"
-      version     = "5.2.0"
-  xmlns:cdv="http://cordova.apache.org/ns/1.0"
-  xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/3.0" id="com.testvictorinox.ensa" versionCode="6.2.0" version="6.2.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
   <!--id="io.cordova.myappad86f1"
   version="1.0.0"
   xmlns="http://www.w3.org/ns/widgets"
@@ -121,4 +113,5 @@
   <plugin name="cordova-plugin-camera" version="2.2.0" />
   <preference name="target-device" value="tablet" />
   <preference name="BackupWebStorage" value="cloud" />
+  <plugin name="cordova-plugin-compat" version="1.0.0" />
 </widget>

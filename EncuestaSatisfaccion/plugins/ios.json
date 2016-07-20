@@ -7,16 +7,16 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myappad86f1"
-        },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "io.cordova.myappad86f1"
+            "PACKAGE_NAME": "com.testvictorinox.ensa"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.testvictorinox.ensa"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "io.cordova.myappad86f1"
+            "PACKAGE_NAME": "com.testvictorinox.ensa"
         }
     }
 }
