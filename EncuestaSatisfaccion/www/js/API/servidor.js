@@ -61,12 +61,12 @@ function guarda_calif(valrad1,valrad2,valrad3,valrad4,valrad5,times){
 			//subirFoto(foto,nom);
 		
 			
-			navigator.notification.alert("Datos enviados", null, "Conectando al servidor", "Aceptar");	
+			alert("Datos enviados", null, "Conectando al servidor", "Aceptar");	
 			return msg;
 			
 		}
         else{
-			navigator.notification.alert("Error al guardar calificacion", null, "Alert", "Aceptar");	
+			alert("Error al guardar calificacion", null, "Alert", "Aceptar");	
 			return msg;
 		}
 	}
