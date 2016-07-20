@@ -1,6 +1,6 @@
 //Conexion
 function isConnected(){
-	if(navigator.connection.type!=Connection.NONE)
+    if (navigator.onLine!= false)
 		return true;
 	else
 		return false;
