@@ -55,7 +55,7 @@ function guarda_calif(valrad1, valrad2, valrad3, valrad4, valrad5, times) {
             //subirFoto(foto,nom);
 
 
-          //  alert("Datos enviados", null, "Conectando al servidor", "Aceptar");
+           alert("Datos enviados", null, "Conectando al servidor", "Aceptar");
             return msg;
 
         }

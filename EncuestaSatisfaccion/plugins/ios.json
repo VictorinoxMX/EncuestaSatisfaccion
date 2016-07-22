@@ -10,13 +10,12 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.testvictorinox.ensa"
         },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.testvictorinox.ensa"
+        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.testvictorinox.ensa"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.testvictorinox.ensa"
-        }
-    }
+    "dependent_plugins": {}
 }
