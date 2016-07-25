@@ -30,7 +30,7 @@ function guardatempcalif(p1, p2, p3, p4, p5) {
     }, function (err) {
         alert("Error processing SQL: " + err);
     }, function () {
-        navigator.notification.alert("Esperando conexión con servidor...", null, "Guardado", "Aceptar");
+       alert("Esperando conexión con servidor...", null, "Guardado", "Aceptar");
     });
 
 }
